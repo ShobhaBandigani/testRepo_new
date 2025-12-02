@@ -33,10 +33,10 @@
               }
             ],
             "datasource": {
-              "name": "demotable",
-              "type": "table",
-              "isReadOnly": false,
-              "schema": "demo",
+              "name": "a_demo_q_1",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
               "seriesColors": {}
             },
             "pagination": {
@@ -46,94 +46,10 @@
             },
             "columns": [
               {
-                "field": "name",
-                "name": "name",
-                "headerName": "name",
-                "dataType": "string",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false,
-                "readOnly": false,
-                "pinned": false
-              },
-              {
-                "field": "$id",
-                "name": "$id",
-                "headerName": "$id",
-                "dataType": "string",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false,
-                "readOnly": false,
-                "pinned": false
-              },
-              {
-                "field": "$version",
-                "name": "$version",
-                "headerName": "$version",
-                "dataType": "integer",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false,
-                "readOnly": false,
-                "pinned": false
-              },
-              {
-                "field": "$created_by",
-                "name": "$created_by",
-                "headerName": "$created_by",
-                "dataType": "string",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false,
-                "readOnly": false,
-                "pinned": false
-              },
-              {
-                "field": "$created_instant",
-                "name": "$created_instant",
-                "headerName": "$created_instant",
-                "dataType": "instant",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false,
-                "readOnly": false,
-                "pinned": false
-              },
-              {
-                "field": "$modified_by",
-                "name": "$modified_by",
-                "headerName": "$modified_by",
-                "dataType": "string",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false,
-                "readOnly": false,
-                "pinned": false
-              },
-              {
-                "field": "$modified_instant",
-                "name": "$modified_instant",
-                "headerName": "$modified_instant",
-                "dataType": "instant",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
-                "sortable": false,
-                "readOnly": false,
-                "pinned": false
-              },
-              {
-                "field": "value",
-                "name": "value",
-                "headerName": "value",
-                "dataType": "long",
+                "field": "total_quotas",
+                "name": "total_quotas",
+                "headerName": "total_quotas",
+                "dataType": "decimal",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
